@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -133,4 +133,75 @@ table {
 html,
 body {
   height: 100%;
+}
+.container {
+  box-sizing: border-box;
+  width: 880px;
+  margin: 10px;
+}
+.very-top {
+  background-color: #e5cce5;
+}
+header {
+  border-bottom: 1px dashed #462255;
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: right;
+}
+header nav {
+  margin-left: 62px;
+}
+header a {
+  color: #ffb732;
+  margin-right: 20px 0;
+  padding: 20px;
+}
+img {
+  display: block;
+  margin-left: 30px;
+  height: auto;
+  width: 300px;
+}
+.main-content {
+  display: block;
+}
+.main-content .main-name {
+  width: 880px;
+}
+.main-content h1 {
+  font-size: 43px;
+}
+.main-content p {
+  font-size: 20px;
+  margin: 10px;
+}
+.main-content button {
+  margin: 10px 5px;
+  padding: 8px 44px;
+  border: 1px solid black;
+  background-color: aqua;
+  cursor: zoom-in;
+  border-radius: 5px;
+}
+.words {
+  width: 600px;
+}
+.words p {
+  font-size: 20px;
+  padding-top: 20px;
+  border-top: 1px solid grey;
+}
+.middle-section {
+  display: flex;
+  width: 880px;
+  margin: 10px;
+}
+.middle-section h2 {
+  font-size: 24px;
+}
+.middle-section p {
+  width: 410px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-left: 0;
 }
