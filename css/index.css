@@ -137,7 +137,7 @@ body {
 .container {
   box-sizing: border-box;
   width: 880px;
-  margin: 10px;
+  margin: 0 auto;
 }
 .very-top {
   background-color: #e5cce5;
@@ -158,24 +158,32 @@ header a {
 }
 img {
   display: block;
-  margin-left: 30px;
+  margin-left: 20px;
   height: auto;
   width: 300px;
 }
-.main-content {
-  display: block;
-}
-.main-content .main-name {
+.main-name {
   width: 880px;
+  margin-left: 10px;
 }
-.main-content h1 {
+.main-name h1 {
   font-size: 43px;
 }
-.main-content p {
+.main-name p {
   font-size: 20px;
   margin: 10px;
 }
-.main-content button {
+.words {
+  width: 880px;
+}
+.words h1 {
+  font-size: 43px;
+}
+.words p {
+  font-size: 20px;
+  margin: 10px;
+}
+.words button {
   margin: 10px 5px;
   padding: 8px 44px;
   border: 1px solid black;
@@ -204,4 +212,5 @@ img {
   padding-right: 20px;
   margin: 10px;
   margin-left: 0;
+  line-height: 1.6;
 }
