@@ -145,7 +145,6 @@ body {
   box-sizing: border-box;
   width: 880px;
   margin: 0 auto;
- 
 }
 
 .very-top {
@@ -163,7 +162,7 @@ header {
   }
 
   a {
-    color: @link-color;
+    color: 	;
     margin-right: 20px 0;
     padding: 20px;
   }
@@ -227,15 +226,70 @@ img {
   width: 880px;
   margin: 10px;
 
+  .important-words {
+    width: 410px;
+  }
   h2 {
     font-size: 24px;
+    font-weight: bold;
   }
 
   p {
     width: 410px;
     padding-right: 20px;
     margin: 10px;
-	margin-left: 0;
-	line-height: 1.6;
+    margin-left: 0;
+    line-height: 1.6;
   }
+}
+
+.Stuff {
+  width: 410px;
+
+  .a {
+    list-style-type: circle;
+    width: 410px;
+    padding-right: 20px;
+    margin: 10px;
+    margin-left: 0;
+    line-height: 1.6;
+  }
+}
+
+.bottom-section {
+	justify-content: start;
+	display: flex;
+	width: 880px;
+	margin: 10px;
+
+	h2 {
+		font-size: 24px;
+		font-weight: bold;	
+		margin-left: 0;
+	}
+
+	ol {
+		list-style: upper-roman;
+		width: 410px;
+		padding-right: 20px;
+		margin: 10px;
+		line-height: 1.6;
+	}
+}
+
+.main-footer {
+	display: flex;
+	justify-content: center;
+	background-color: lightgrey;
+	
+	padding: 20px;
+
+	nav {
+		font-size: large;
+		width: 90%;
+		display: flex;
+		justify-content: space-around;
+		text-decoration-color: @link-color;
+	}
+
 }

@@ -152,7 +152,7 @@ header nav {
   margin-left: 62px;
 }
 header a {
-  color: #ffb732;
+  color: ;
   margin-right: 20px 0;
   padding: 20px;
 }
@@ -204,8 +204,12 @@ img {
   width: 880px;
   margin: 10px;
 }
+.middle-section .important-words {
+  width: 410px;
+}
 .middle-section h2 {
   font-size: 24px;
+  font-weight: bold;
 }
 .middle-section p {
   width: 410px;
@@ -213,4 +217,46 @@ img {
   margin: 10px;
   margin-left: 0;
   line-height: 1.6;
+}
+.Stuff {
+  width: 410px;
+}
+.Stuff .a {
+  list-style-type: circle;
+  width: 410px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-left: 0;
+  line-height: 1.6;
+}
+.bottom-section {
+  justify-content: start;
+  display: flex;
+  width: 880px;
+  margin: 10px;
+}
+.bottom-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 0;
+}
+.bottom-section ol {
+  list-style: upper-roman;
+  width: 410px;
+  padding-right: 20px;
+  margin: 10px;
+  line-height: 1.6;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 20px;
+}
+.main-footer nav {
+  font-size: large;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration-color: #ffb732;
 }
